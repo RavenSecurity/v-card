@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to left, white 65%, #1229ac 35%);
+  background: linear-gradient(to left, white 65%, #3D6FDB 35%);
   margin: 50px;
 }
 
@@ -22,30 +22,48 @@ header {
 section {
   display: flex;
   margin: 150px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}
 section span {
-  color: #1229ac;
+    color: #3D6FDB;
+  }
+
+.title {
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(37, 37, 37)
+}
+
+section p {
+    font-size: 18px;
 }
 
 button {
-  border-radius: 30px;
+  border-radius: 40px;
   background-color: white;
-  border: 2px solid black;
+  border: 3px solid black;
   color: black;
   padding: 20px;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   letter-spacing: 0.3rem;
-  width: 180px;
+  width: 200px;
 }
 
 .portfolio {
-  background-color: #1229ac;
+  background-color: #3D6FDB;
   border: none;
   color: white;
+}
+
+.resume {
+    margin-left: 30px;
 }
 
 .designer {
@@ -56,7 +74,8 @@ button {
   position: relative;
   bottom: 280px;
   left: 160px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .topo {
@@ -65,11 +84,11 @@ button {
 
 hr {
   height: 4px;
-  background-color: #1229ac;
+  background-color: #3D6FDB;
   width: 100px;
   border: 2px;
   position: absolute;
-  top: 385px;
+  top: 403px;
   left: 780px;
 }
 
@@ -78,12 +97,18 @@ hr {
 footer {
   color: white;
   position: relative;
-  bottom: 580px;
-  font-family: 'Roboto', sans-serif;
+  bottom: 520px;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer p {
+    margin-top: -15px;
+    font-weight: 100;
 }
 
 footer img {
   height: 40px;
-  padding: 10px;
-  margin-right: 5px;
+  padding-right: 30px;
+  margin-left: -10px;
+  margin-top: -10px;
 }

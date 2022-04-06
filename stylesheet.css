@@ -8,20 +8,21 @@ body {
 header {
 }
 .logo {
-  width: 100px;
+  width: 130px;
 }
 
 .burger {
-  height: 30px;
+  height: 35px;
   float: right;
+  margin: 5px;
 }
 
 /* SECTION SECTION */
 
 section {
   display: flex;
-  justify-content: space-between;
   margin: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
 section span {
@@ -48,28 +49,28 @@ button {
 }
 
 .designer {
-  height: 700px;
+  height: 750px;
   width: auto;
   justify-content: center;
   margin-top: 1px;
   position: relative;
-  bottom: 250px;
-  left: 180px;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  bottom: 280px;
+  left: 160px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .topo {
-  margin-left: 60px;
+  margin-left: 200px;
 }
 
 hr {
-  height: 5px;
+  height: 4px;
   background-color: #1229ac;
-  width: 130px;
+  width: 100px;
   border: 2px;
   position: absolute;
-  top: 350px;
-  left: 770px;
+  top: 385px;
+  left: 780px;
 }
 
 /* FOOTER SECTION */
@@ -77,10 +78,12 @@ hr {
 footer {
   color: white;
   position: relative;
-  bottom: 560px;
+  bottom: 580px;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer img {
-  fill: white;
-  height: 50px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 5px;
 }

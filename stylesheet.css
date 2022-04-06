@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(to left, white 65%, #3D6FDB 35%);
   margin: 50px;
+  overflow: hidden;
 }
 
 /* HEADER SECTION */

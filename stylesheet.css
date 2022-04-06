@@ -48,12 +48,12 @@ button {
   background-color: white;
   border: 3px solid black;
   color: black;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   letter-spacing: 0.3rem;
-  width: 150px;
+  width: 180px;
 }
 
 .portfolio {
@@ -63,7 +63,7 @@ button {
 }
 
 .resume {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .designer {

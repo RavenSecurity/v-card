@@ -53,7 +53,7 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   letter-spacing: 0.3rem;
-  width: 200px;
+  width: 150px;
 }
 
 .portfolio {
@@ -97,7 +97,7 @@ hr {
 footer {
   color: white;
   position: relative;
-  bottom: 520px;
+  bottom: 600px;
   font-family: "Montserrat", sans-serif;
 }
 
